@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="menuhorizontal/registro.css">
+</head>
+<body background="http://pa1.narvii.com/7059/592016ecbba8ea019f1afe863d426a351b7ebd20r1-320-180_00.gif">
+    <form>
+    <section>
+        <section class="form-register">
+            <h4>Registrate</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+        <input class="controls" type="number" name="años" id="años" placeholder="Ingrese su Edad" step="any">
+        <div class="controls">
+            Género:
+            <span class="tab"></span>
+            <input type="radio" id="f" name="gender" value="f">
+            <label for="f">Femenino</label>
+                <input type="radio" id="m" name="gender" value="m">
+                <label for="m">Masculino</label>
+            </div>  
+        <div>
+            <label> <input type="checkbox" name="condiciones" id="condiciones" value="condiciones aceptadas" checked><b> Acepto los Términos y Condiciones</b></label>
+        </div>
+            <details>
+                <summary> <u>Ver Términos y condiciones</u></summary>
+                <ul>
+                <li>Diviertete y no te agüites</li>
+                </ul>
+            </details>
+            <a href="exito.html"><button type="button" id="Completo" onclick="datos()">Registro Completo</button></a>
+
+    </section>
+    </form>
+<script src="formulario.js"></script>
+</body>
+</html>

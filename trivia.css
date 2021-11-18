@@ -1,0 +1,90 @@
+body{font-family:'Times New Roman', Times, serif;}
+ul{list-style: none;margin: 0;padding: 0;background-color: black;line-height: 40px;overflow: auto;}
+li{width: 100px; float: left;text-align: center}
+a{color: white;display: block;text-decoration: none;}
+a:hover{background-color: tomato;}
+*{
+    transition: all 0.3s;
+}
+header{
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    padding: 0;
+         margin: 0;
+         text-align: center;
+         font-size: 130%;
+    
+}
+.question{
+    font-family: 'Indie Flower', cursive;
+}
+.contenedor {
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.encabezado {
+            background: #f3e0c9;
+            min-width: 300px;
+            width: 70%;
+            padding: 10px;
+        }
+
+        .categoria {
+            opacity: 0.3;
+            text-align: left;
+        }
+
+        .pregunta,.resultado-titulo {
+            padding: 10px;
+        }
+
+        .image {
+            width: 400px;height: 240px;
+        }
+
+        .btn {
+            background:#f3e0c9;
+            width: 60%;
+            padding: 10px;
+            margin: 5px;
+        }
+        .btn button{display: block;
+            font-family: 'Indie Flower', cursive;
+            margin: 5px auto;
+            font-size: 1rem;
+            width: 300px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 0;
+            border: 0;
+        }
+
+        .btn:hover {
+            background: tan;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        .button{
+            border-radius: 10px;
+            border: 1px solid black;
+            font-weight: 800;
+            padding: 7px 10px;
+            margin: 10px auto;
+            width: 40%
+        }
+        #barra-progreso{width: 98%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
+            #estilo-perdiste{color: rgb(161,39,18); font-weight: 600;}
+            #estilo-cerca{color: rgb(214,162,19); font-weight: 600;}
+            #estilo-casilologras{color: rgb(18,161,149); font-weight: 600;}
+            #estilo-lolograste{color: rgb(35,161,18); font-weight: 600;}
+            .resultado-obtenido{padding-top: 50px;}

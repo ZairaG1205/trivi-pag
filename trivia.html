@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="trivia.css">
+</head>
+<body background="http://pa1.narvii.com/7059/592016ecbba8ea019f1afe863d426a351b7ebd20r1-320-180_00.gif">
+    <header>
+    <!--Titulo-->
+    <h1>CULTURIVIA</h1>
+    </header>
+    <!--Barra horizontal-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="registrivia.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="menuhorizontal/reglas.html">Reglas</a>
+                </li>
+                <li>
+                    <a href="menuhorizontal/comojugar.html">Cómo jugar</a>
+                </li>
+                <li>
+                    <a href="menuhorizontal/soporte.html">Soporte</a>
+                </li>
+            </ul>
+        </nav>
+    <main class="question">
+        <div class="repuesta">
+    <div class="contenedor">
+        <div class="encabezado">
+            <div class="categoria">
+                Literatura
+            </div>
+            <div class="pregunta" id="pregunta">
+                    ¿Quién pinto la mona lisa?
+            </div>
+            <img  class="image" src="https://cope-cdnmed.agilecontent.com/resources/jpg/0/3/1536490088830.jpg">
+        </div>
+        <div class="btn">
+        <button type="button" name="opc1" id="btn1" onclick="funciona()">
+        <label for="btn1">Leonardo da Vinci</label>
+        </div>
+        <div class="btn">
+        <button type="button" name="opc2" id="btn2" onclick="funciona()">
+        <label for="btn2">Picasso</label>
+        </div>
+        <div class="btn">
+        <button type="button" name="opc3" id="btn3" onclick="funciona()">
+        <label for="btn3">Leonardo DiCaprio</label>
+        </div>
+        <div class="btn">
+        <button type="button" name="opc4" id="btn4" onclick="funciona()">
+        <label for="btn4"> Monet </label> 
+    </div>
+    </div>
+    </div>
+    </main>
+       <div class="avance">
+        <progress id="barra-progreso" max="100" value="70">70%</progress>
+    </div>
+     <script src="trivia.js"></script>
+</body>
+</html>
